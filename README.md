@@ -1,3 +1,4 @@
+[![Python application test with Github Actions](https://github.com/ragavavr/ci-cd-pipeline/actions/workflows/python-app.yml/badge.svg)](https://github.com/ragavavr/ci-cd-pipeline/actions/workflows/python-app.yml)
 # Introduction
 
 This project hosts a python application that is designed to predict housing prices in Boston (not created by me). This repo enables to:

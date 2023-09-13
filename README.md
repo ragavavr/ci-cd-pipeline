@@ -32,9 +32,12 @@ Install dependencies in the virtual environment and run tests:
 ```
 make all
 ```
-![cloud-make-all](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/f44d8940-9da3-4526-980b-50407b30d589)
+![image](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/2b7cf59f-0716-455a-ae27-7894a835369a)
+
 
 ## Configure GitHub Actions
 Enable GitHub actions in the GitHub UI and verify that the build is successful with tests passing:
-![github-actions](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/003466f5-0b1b-411f-8370-141467208e23)
+
+![image](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/8de5292d-8562-4a2f-b8b7-7ed6ecf5027b)
+
 

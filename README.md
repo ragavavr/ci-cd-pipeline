@@ -21,7 +21,6 @@ git clone https://github.com/ragavavr/ci-cd-pipeline.git
 ```
 ![cloud-shell-clone](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/99d2cace-1885-41bb-8659-de8d2346ebac)
 
-
 Change into the new directory, create a virtual environment and activate it:
 ```
 cd ci-cd-pipeline
@@ -34,10 +33,13 @@ make all
 ```
 ![image](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/2b7cf59f-0716-455a-ae27-7894a835369a)
 
-
 ## Configure GitHub Actions
 Enable GitHub actions in the GitHub UI and verify that the build is successful with tests passing:
 
 ![image](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/8de5292d-8562-4a2f-b8b7-7ed6ecf5027b)
 
+## Deploy the app to Azure App Service
+An App Service was created through the Cloud Shell with the name ragava-webapp in the resource group flask-app:
+```
 
+```

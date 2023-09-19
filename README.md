@@ -1,4 +1,6 @@
 [![Python application test with Github Actions](https://github.com/ragavavr/ci-cd-pipeline/actions/workflows/python-app.yml/badge.svg)](https://github.com/ragavavr/ci-cd-pipeline/actions/workflows/python-app.yml)
+[![Build Status](https://dev.azure.com/vigneshrsr/python-flask-webapp/_apis/build/status%2Fragavavr.ci-cd-pipeline?branchName=main)](https://dev.azure.com/vigneshrsr/python-flask-webapp/_build/latest?definitionId=9&branchName=main)
+
 # Introduction
 
 This project hosts a python application that is designed to predict housing prices in Boston (not created by me). This repo enables to:

@@ -19,6 +19,9 @@ variables:
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
+  # Python Version
+  pythonVersion: '3.8'
+
 stages:
 - stage: Build
   displayName: Build stage
@@ -30,7 +33,7 @@ stages:
         make setup
         make install
       workingDirectory: $(projectRoot)
-      displayName: 'Install requirements'
+      displayName: 'Setup venv and install requirements'
     
     - script: |
         make setup
@@ -64,10 +67,14 @@ stages:
       runOnce:
         deploy:
           steps:
+          - task: UsePythonVersion@0
+            displayName: 'Use the defined python version'
+            inputs:
+              versionSpec: '$(pythonVersion)'
           - task: AzureWebApp@1
             displayName: 'Deploy Azure Web App : ragava-webapp'
             inputs:
+              appType: webAppLinux
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
-              appType: webApp
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip

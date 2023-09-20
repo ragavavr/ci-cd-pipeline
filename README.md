@@ -73,7 +73,7 @@ And the app should be available at its URL:
 
 View the app logs:
 ```
-az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
+az webapp log tail --name ragava-webapp --resource-group flask-app
 ```
 ![Screenshot 2023-09-19 214728](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/23d8c461-c916-4f9b-afee-f53d8b5e15be)
 

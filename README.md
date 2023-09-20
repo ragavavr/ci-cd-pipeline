@@ -23,6 +23,9 @@ In Azure Cloud Shell, clone the repo:
 ```
 git clone https://github.com/ragavavr/ci-cd-pipeline.git
 ```
+![Screenshot 2023-09-20 182540](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/d70a54a6-874f-43dd-9bfc-866c4aff554e)
+
+
 Change into the new directory, create a virtual environment and activate it:
 ```
 cd ci-cd-pipeline

@@ -77,7 +77,7 @@ az webapp log tail --name ragava-webapp --resource-group flask-app
 ```
 ![Screenshot 2023-09-19 214728](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/23d8c461-c916-4f9b-afee-f53d8b5e15be)
 
-### Azure Pipelines for Continuos Delivery
+### Azure Pipelines for Continuous Delivery
 Next, create the pipeline in Azure DevOps. More information on this process can be found [here](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl).
 
 ![Screenshot 2023-09-19 221304](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/b459a6ba-d8d4-414f-a2d6-dd432dd6b68f)
@@ -107,10 +107,11 @@ You can then watch the load test:
 
 ![Screenshot 2023-09-19 114721](https://github.com/ragavavr/ci-cd-pipeline/assets/127974235/b0edee93-8818-4bb1-9022-c66071c70bd1)
 
-## Enhancements
+### Enhancements
 Currently, there is only a single branch in GitHub. In the future it would be good to create multiple branches, so that the code can initially be tested and deployed in a staging environment. If it works correctly in the staging environment, the changes could then be pushed into the production branch and the code deployed into the production environment.
 
 ## Demo
+A video demo can be found [here](https://www.youtube.com/watch?v=sQWyrFV62Sk).
 
 
 
